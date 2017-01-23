@@ -1,3 +1,23 @@
 header {
 	border: 1px solid slategray;
 }
+
+/* Remove margins and padding from the list */
+ul.nav {
+	list-style-type: none;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+/* Float the list items side by side */
+ul.nav li {
+	float: left;
+}
+
+/* Style the links inside the list items */
+ul.nav li a {
+	display: inline-block;
+	text-align: center;
+	padding: 30px 20px;
+	margin: 0 0 10px;
+}
