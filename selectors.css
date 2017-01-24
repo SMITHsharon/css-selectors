@@ -23,7 +23,7 @@ ul.nav li a {
 	/*margin: 0 0 10px;*/
 }
 
-/* applying color styling */
+/* applying text color styling */
 .disabled {
 	color: grey;
 }
@@ -35,3 +35,43 @@ a.disabled {
 .active {
 	color: yellow;
 }
+
+
+/* styling for nth-child navigation */
+
+/* Make the "I'm red" text colored red */
+.parent div:first-child {
+	color: red;
+}
+
+/* Make the "I'm blue" text colored blue */
+.parent div:nth-child(3) {
+	color: blue;
+}
+
+/* The sibling h4 of the red element should have a background color of red */
+.parent div:first-child + h4 {
+	color: red;
+}
+
+/* The sibling h4 of the blue element should have background color of blue */
+.parent div:nth-child(3) +h4 {
+	color: blue;
+}
+
+/* Any h4 that is a direct child of grandparent should have a 1px border with rounded corners. */
+.grandparent h4:nth-child(n) {
+	border: 1px solid slategray;
+	border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
