@@ -3,22 +3,24 @@
 ### Project Description 
 This assignment gives opportunity to learn about `css` styling possibilities and node-traversal for accessing elements in the DOM. 
 #### HTML Page Display
-![CSS Selectors Output Screen](https:.png)
+![CSS Selectors Output Screen](https://raw.githubusercontent.com/SMITHsharon/css-selectors/screen/screen/CSS%20Selectors%20Screen%20Grab.png)
 
 ### Project Specs
 1. The header element has a 1px border; color discretionary.
-2. The `ul` navigation element is converted into a series of horizontal links, with `#` as the `href` value. Bullet characters have been removed, and the elements have some space between them horizontally.
+2. The `ul` navigation element is converted into a series of horizontal links, with `#` as the `href` value. 
+- Bullet characters have been removed, and the elements have some space between them horizontally.
 3. The navigation is wrapped in the correct `HTML` tag.
-4. Any text in an element with class `disabled` is colored `grey`, unless it is inside an anchor tag. 5. Any text that is inside an anchor tag is colored `purple`.
-6. Any text inside an element with a class of `active` is colored `yellow`.
+4. Any text in an element with class `disabled` is colored *grey*, unless it is inside an anchor tag. 
+5. Any text that is inside an anchor tag is colored *purple*.
+6. Any text inside an element with a class of `active` is colored *yellow*.
 7. Section elements are contained within an `article` element.
 8. The two missing closing tags were found and corrected.
-9. The "I'm red" text is colored `red`. 
-10. The "I'm blue" text is colored `blue`. 
-11. The sibling `h4` of the `red` element should has a background color of `red`.
-12. The sibling `h4` of the `blue` element should has a background color of `blue`.
+9. The *I'm red* text is colored `red`. 
+10. The *I'm blue* text is colored `blue`. 
+11. The sibling `h4` of the *red* element should has a background color of *red*.
+12. The sibling `h4` of the *blue* element should has a background color of *blue*.
 13. Any `h4` that is a direct child of grandparent has a 1px border with rounded corners.
-14. Elements with a class of `promo` have bold text that is also colored `gold`.
+14. Elements with a class of `promo` have bold text that is also colored *gold*.
 15. Without adding any other attributes to the input fields in the `footer`, write a CSS selector that makes any text input field have a height of 25px.
 
 ```
