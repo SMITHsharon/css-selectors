@@ -119,8 +119,8 @@ This assignment gives opportunity to learn about `css` styling possibilities and
 
 
 ### Technologies Used
-- html
-- css
+- `html`
+- `css`
 
 
 ### How To View The Screen 
@@ -128,11 +128,10 @@ This assignment gives opportunity to learn about `css` styling possibilities and
 ```
 git clone git@github.com:SMITHsharon/css-selectors.git
 cd css-selectors
-npm install http-server -g
 http-server -p 8080
+This will show in your browser at: http://localhost:8080
 ```
 
-This will show in your browser at: `http://localhost:8080`
 
 ### Contributor
 [Sharon Smith](https://github.com/SMITHsharon)
